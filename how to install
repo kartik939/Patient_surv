@@ -1,0 +1,18 @@
+In this project we are going to make a Heart Beat Detection and Monitoring System using Arduino that will detect the heart beat using the Pulse Sensor and will show the readings in BPM (Beats Per Minute) on the LCD connected to it. It will also send the readings to ThingSpeak server using the Wi-Fi module ESP8266, so that Heart Beats can be monitored from anywhere in the world over the internet. ThingSpeak is a great source for displaying the data online and you can access the data from ThingSpeak at any time and at any place.
+
+The IoT project developed here is built on Arduino UNO. The Arduino is one of the earliest and most popular prototyping boards. The Arduino is interfaced with ESP8266 Wi-Fi modem to connect with an internet router and access the cloud server. The Arduino is interfaced with LM-35 temperature sensor to sense the surrounding temperature and a pulse sensor to read pulse rate. The measured pulse rate and temperature are displayed on a character LCD interfaced to the Arduino and are passed to the cloud platform by transmitting data to a Wi-Fi access point. With this simple yet effective device, health status of a critically ill patient can be constantly monitored. It can be used to keep track of health of aged people who frequently have heart or blood pressure issues.  
+COMPONENTS REQUIRED
+
+  
+ The Arduino based IoT device has the following circuit connections - 
+ 
+Arduino UNO - The Arduino UNO is ATmega328 based microcontroller board. It is one of the most popular prototyping boards. The board comes with built-in arduino boot loader. It has 14 GPIO pins, 6 PWM pins, 6 Analog inputs and on board UART, SPI and TWI interfaces, an on-board resonator, a reset button, and holes for mounting pin headers. While programming the board, it can be connected to the PC using USB port and the board can runs on USB power. The Arduino UNO has 32 Kb Flash memory, 1 Kb EEPROM and 2 Kb SRAM. The board can be connected to different Arduino Shields for connectivity with Ethernet, Bluetooth, Wi-Fi, Zigbee or Cellular network and it can be connected to most of the IoT platforms. The ATmega328 controller has the following pin configuration – 
+ 
+ 
+
+Integration of healthcare with IoT has opened up a vast arena of development. It will not only facilitate healthcare but will also find out new measures to prevent diseases by processing data and by analyzing global trends. Moreover, a vast future lies entirely on automation of hospitals and treatment mechanisms which can help the doctors understand diseases through artificial intelligence and 
+IoT
+ 
+However, we should take a step at a time and not rush in into this field, since it deals with human health and safety and security needs to be the top agenda. On a large scale, this can also lead to cheaper treatments and cheaper nursing 
+costs of patients. If technology and health goes hand in hand, we can reach the goal of cheap, safe and efficient disease preventions and treatment.
+
